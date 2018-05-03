@@ -61,6 +61,23 @@ namespace AnToanBaoMat
                         }
                     }
                     break;
+                case 1:
+                    string khoa = rtbxKey.Text;
+                    if(progress == 0)
+                    {
+                        foreach(var item in _data)
+                        {
+                            _result.Add(Playfair.PlayfairEncryption(item,khoa));
+                        }
+                    }
+                    else
+                    {
+                        foreach(var item in _data)
+                        {
+                            _result.Add(Playfair.PlayfairDecryption(item, khoa));
+                        }
+                    }
+                    break;
             }
         }
 
@@ -105,5 +122,6 @@ namespace AnToanBaoMat
 
         #endregion
 
+       
     }
 }

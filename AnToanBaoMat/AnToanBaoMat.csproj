@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Ceasar.cs" />
+    <Compile Include="Algorithms\Playfair.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>

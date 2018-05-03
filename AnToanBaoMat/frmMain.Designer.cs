@@ -65,7 +65,8 @@
             // 
             this.cbxAlgorithm.FormattingEnabled = true;
             this.cbxAlgorithm.Items.AddRange(new object[] {
-            "Ceasar"});
+            "Ceasar",
+            "Playfair"});
             this.cbxAlgorithm.Location = new System.Drawing.Point(172, 52);
             this.cbxAlgorithm.Margin = new System.Windows.Forms.Padding(4);
             this.cbxAlgorithm.Name = "cbxAlgorithm";
